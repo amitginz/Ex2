@@ -321,17 +321,7 @@ public class DirectedWeightedGraphAlgorithms_c implements DirectedWeightedGraphA
         return true;
     }
 
-    public static void main(String[] args) {
-
-        DirectedWeightedGraphAlgorithms_c g1 = new DirectedWeightedGraphAlgorithms_c(null);
-        DirectedWeightedGraph_c graph = new DirectedWeightedGraph_c(null ,null);
-        g1.load("C:\\Users\\amit ginzberg\\Desktop\\1000Nodes.json");
-        long start = System.currentTimeMillis();
-        NodeData check =  g1.center();
-        long finish = System.currentTimeMillis();
-        System.out.println(finish-start);
-        System.out.println(check);
-    }
+  
 
 }
 
