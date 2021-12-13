@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Main-Class: Ex2
+Multi-Release: true
+
+
